@@ -3,7 +3,7 @@ FROM ubuntu:latest
 RUN apt-get update && apt-get install -y \
     python3.10 \
     python3-pip \
-new chane    git \
+    git \
     && apt-get clean && rm -rf /var/lib/apt/lists/* \
     && pip3 install PyYAML
 
