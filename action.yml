@@ -1,8 +1,8 @@
-name:"podcast generator"
+name: "podcast generator"
 author: "Sergio Belda"
 description: "Generates a podcast from a given text"
 runs:
-  using:"docker"
+  using: "docker"
   image: "Dockerfile"
 branding:
   icon: "podcast"
@@ -11,8 +11,8 @@ inputs:
   email:
     description: "Email address to send the podcast to"
     required: true
-    default: ${{github.actor}}@localhost
+    default: ${{ github.actor }}@localhost
   names:
     description: "Names of the speakers, separated by commas"
     required: true
-    default: ${{github.actor}}
+    default: ${{ github.actor }}
