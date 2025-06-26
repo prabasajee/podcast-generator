@@ -1,11 +1,11 @@
-name: "podcast generator"
+name: "prabasajee-podcast-generator"
 author: "Sergio Belda"
 description: "Generates a podcast from a given text"
 runs:
   using: "docker"
   image: "Dockerfile"
 branding:
-  icon: "podcast"
+  icon: "anchor"
   color: "blue"
 inputs:
   email:
